@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="video-preview">
+        <div class="t-row">
+            <img class="thumbnail" src="img/1.jpg" alt="${videos.image}">
+            <div class="video-time"> 1.5 </div>
+        </div>
+        <div class="video-info">
+            <p class="v-t">show how its done</p>
+            <p class="v-a">Rajesh khanna</p>
+            <p class="v-s">10k . views</p>
+        </div>
+    </div>
+    </div>
+</body>
+<style>
+    .channel-picture {
+        width: 300px;
+        height: 500px;
+        background-color: black;
+        display: inline-block;
+    }
+
+    .thumbnail {
+        background-color: blue;
+        height: 100%;
+        width: 100%;
+    }
+
+    .t-row {
+        height: 320px;
+        width: 500px;
+    }
+
+    .video-preview {
+        display: grid;
+        grid-template-columns: 550px 1fr;
+    }
+    .v-t{
+        font-size: 25px;
+        
+    }
+</style>
+
+</html>

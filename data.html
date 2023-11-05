@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<head>
+    <link rel="stylesheet" href="style/data.css">
+<body>
+    <div class="content">
+        <input type="text" id="search">
+        <button type="submit" class="submit">Submit</button>
+    </div>
+
+    <div class="container">
+        <div class="tag head">
+            <div class="content">Name</div>
+            <div class="content">E-mail</div>
+            <div class="content">Phone no.</div>
+            <div class="content">Add/Remove</div>
+        </div>
+        <div class="people"></div> 
+</body>
+<script src="script/data.js"></script>
+    <script>
+        let search = document.getElementById('search');
+        let submit = document.querySelector('.submit');
+
+        const users = getStore() || [];
+    </script>
+</head>
+</html>
